@@ -1,0 +1,11 @@
+
+#container .box-model {
+	background-color: #efefef;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    margin: auto;
+    padding: 25px;
+    border: 25px solid green;
+    margin: 25px;
+}
