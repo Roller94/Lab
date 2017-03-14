@@ -1,0 +1,246 @@
+@import url("table.css");
+
+.cuadro {	
+	width: 20%;
+	margin: auto;
+	border-style: solid;
+	padding: 10px 10px;
+}
+
+/******************************/
+
+.section1 {
+	position: static;
+}
+
+/******************************/
+
+.section2 .p2 {
+	position: relative;
+	left: 5%;
+}
+
+/******************************/
+
+.section3 .h1 {
+	position: absolute;
+	background: #c3c3c3;
+	padding: 10px 10px;
+	top: 0;
+	left: 50%;
+}
+
+/******************************/
+
+.section4 .h1 {
+	position: fixed;
+	background: #c3c3c3;
+	padding: 10px 10px;
+	top: 10%;
+	right: 45%;
+}
+
+/******************************/
+
+.section5 .h1 {
+	float: right;
+	background: #c3c3c3;
+	padding: 10px 10px;
+}
+
+/******************************/
+
+#container2 h1 {	
+	padding: 0px 20px;
+}
+
+#container2 .article1 {
+	width: 60%;
+	float: left;
+	margin: 10px;
+}
+
+#container2 .article2 {
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+
+#container2 .article3 {
+	width: 60%;
+	float: left;
+	margin: 10px;
+}
+
+/******************************/
+
+#container3 .article1 {
+	width: 35%;
+	float: left;
+	margin: 10px;
+}
+
+#container3 .article2 {
+	width: 35%;
+	float: left;
+	margin: 10px;
+}
+
+#container3 .article3 {
+	width: 25%;
+	float: left;	
+	margin: 10px;
+}
+
+/******************************/
+
+#content1 {
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	height: 100%;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#content1 #nav, #content1 #feature, #content1 #footer {
+	background-color: #efefef;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+#content1 .column1, #content1 .column2, #content1 .column3 {
+	background-color: #efefef;
+	width: 290px;
+	float: left;
+	padding: 10px;
+	
+}
+
+#content1 .column1, #content1 .column2 {
+	margin-right: 15px;
+}
+
+#content1 li {
+	display: inline;
+	padding: 5px;
+}
+
+#content1 li a {
+	color: black;
+}
+
+#content1 #footer {
+	margin-top: 60px;
+}
+
+/******************************/
+
+#content2 {
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#content2 #nav, #content2 #feature, #content2 #footer {
+	margin: 1%;
+}
+
+#content2 .column1, #content2 .column2, #content2 .column3 {
+	background-color: #efefef;
+	width: 31.3%;
+	float: left;
+	padding: 0.6em 0;
+	margin: 1%;
+}
+
+#content2 .column3 {
+	margin-right: 0%;
+}
+
+#content2 li {
+	display: inline;
+	padding: 0.5em;
+}
+
+#content2 li a {
+	color: black;
+}
+
+#content2 #nav, #content2 #feature, #content2 #footer {
+	background-color: #efefef;
+	padding: 0.5em 0;
+}
+
+#content2 #feature {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #efefef;
+}
+
+#content2 #footer {
+	margin-top: 6em;
+	padding: 0.5em 0;
+}
+
+/******************************/
+
+#content3 {
+	font-family: sans-serif;
+	color: #665544;
+	text-align: center;
+} 
+
+#content3 #nav, #content3 #feature, #content3 #footer {
+	background-color: #efefef;
+	margin-top: 20px;
+	padding: 20px 0px;
+}
+
+#content3 .column1, #content3 .column2, #content3 .column3 {
+	background-color: #efefef;
+	margin: 0px;
+	margin-top: 20px;
+	padding: 10px 0px;
+	height: 100px;
+}
+
+#content3 .column1, #content3 .column2 {
+	margin-right: 20px;
+}
+
+#content3 #feature {
+	height: 100px;
+}
+
+#content3 li {
+	display: inline;
+	padding: 5px;
+}
+
+#content3 li a {
+	color: black;
+}
+
+/******************************/
+
+#content4 {
+	color: #666666;
+	text-align: center;
+}
+
+#content4 #page {	
+	background-color: #f8f8f8;
+	width: 600px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #d6d6d6;
+	padding: 20px;
+}
+
+#content4 h3 {
+	color: #547ca0;
+}

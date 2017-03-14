@@ -1,0 +1,17 @@
+
+#content4 table {
+    border-collapse: collapse;
+    width: 300px;
+}
+
+#content4 th, #content4 td {
+    text-align: left;
+    padding: 8px;
+}
+
+#content4 tr:nth-child(even){background-color: #f2f2f2}
+
+#content4 th {
+    background-color: #547ca0;
+    color: white;
+}
