@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <title>Laboratorio JS y JQuery</title>
 </head>
 
@@ -19,7 +20,7 @@
         <li>thing 5</li>
         <li class="special">thing 6</li>
     </ul>
-
+    <button type="button" id="btn_id_selector">Id Selector</button><br/>
 
     <ul id="languages">
         <li>Mandarin</li>
@@ -43,6 +44,9 @@
         <li>Malay-Indonesian</li>
         <li>French</li>
     </ul>
+    
+    <button type="button" id="btn_class_selector">Class Selector</button><br/>
+
     <ul>
         <li data-employee="Bob Metz">Bob Metz</li>
         <li data-employee="Billy Bob Jones">Billy Jones</li>
@@ -58,6 +62,8 @@
     <a href="example.html" lang="ko">Korean</a>
     <a href="example.html" lang="en-and-es">Spanglish</a>
 
+    <br/><br/>
+    <button type="button" id="btn_tag_selector">Tag Selector</button><br/>
 
     <div>
         <p>I am the first child of div #1.</p>
@@ -70,6 +76,9 @@
 
         <p>I am the fifth child of div #1.</p>
     </div>
+
+    <button type="button" id="btn_alter_selector">Alter Selector</button><br/>
+
     <div>
         <p>I am the first child of div #2.</p>
 
@@ -77,10 +86,15 @@
 
         <p>I am the third child of div #2.</p>
     </div>
+
     <div>
         <p>I am the only child of div #3.</p>
         <span>Here is some text</span>
     </div>
+    
+    <br/>
+    <button type="button" id="btn_child_descendant_selector">Child & Descendant Selector</button><br/><br/>
+
     <div>
         <form title="Calcular Fecha de Nacimiento">
             <input type="text" id="name" name="name" value="">
