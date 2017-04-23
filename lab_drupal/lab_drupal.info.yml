@@ -1,0 +1,15 @@
+name: lab_drupal
+type: theme
+description: 'Laboratorio Drupal Roller'
+package: RAZS
+core: 8.x
+
+libraries:
+  - lab_drupal/global-styling
+
+regions:
+  content: Content
+  header: Header
+  section : Section
+  footer: Footer
+

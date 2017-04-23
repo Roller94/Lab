@@ -1,0 +1,53 @@
+
+html {
+	font-family: sans-serif; 
+	line-height: 1.15; 
+	-ms-text-size-adjust: 100%; 
+	-webkit-text-size-adjust: 100%;
+	font-size: 15px;
+}
+
+body {
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+h1 {
+	float: none;
+	text-align: left;
+}
+
+.firstArticle, .secondArticle, .thirdArticle {
+	float: none;
+	width: 100%;
+	margin-left: 0%;
+}
+
+nav, img, .firstArticle p:nth-child(2), .firstArticle p:nth-child(3) {
+	display: none;
+}
+
+.cuadro {
+	border-style: none;
+	background-color: #FFF;
+}
+
+h3 {
+	color: #007AEC;
+}
+
+h4 {
+	color: green;
+}
+
+span > span, h5 {
+	color: red;
+}
+
+span .inline {
+	text-decoration: none;	
+}
+
+footer {
+	text-align: center;
+}
