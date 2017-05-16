@@ -111,13 +111,15 @@
         {% endblock %}
       {% endif %}
       
-      {# Slider #}
-      {% if page.slider %}
-        {% block slider %}
-          <div class="col-sm-12">
-            {{ page.slider }}
-          </div>
-        {% endblock %}
+      {% if is_front %}
+        {# Slider #}
+        {% if page.slider %}
+          {% block slider %}
+            <div class="col-sm-12">
+              {{ page.slider }}
+            </div>
+          {% endblock %}
+        {% endif %}
       {% endif %}
 
       {# Content #}
@@ -170,7 +172,7 @@
         {# Sidebar First #}
         {% if page.sidebar_first %}
           {% block sidebar_first %}
-            <aside class="col-sm-3" role="complementary">
+            <aside class="col-sm-3 aside1" role="complementary">
               {{ page.sidebar_first }}
             </aside>
           {% endblock %}
@@ -179,7 +181,7 @@
         {# Sidebar Second #}
         {% if page.sidebar_second %}
           {% block sidebar_second %}
-            <aside class="col-sm-3" role="complementary">
+            <aside class="col-sm-3 aside2" role="complementary">
               {{ page.sidebar_second }}
             </aside>
           {% endblock %}
